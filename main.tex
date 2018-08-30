@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{profile.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Xiaoshen Hou \\ % Your name
+\url{houxiaoshen81@gmail.com} \\ % Your email address
+Age: 25 \\
+Nationality: Chinese \\
+(+45) 50350428 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+245 Rødovre Parkvej \\ % Address 1
+Rødovre 2610, Copenhagen \\ % Address 2
+Denmark \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Xiaoshen Hou} % Large heading - your name
+
+\cvsubheading{Big Data Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{I am currently working as a big data consultant. My education and working experience so far are able to contribute and add significant amount of strength to support me in career. }
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{2016 - 2018, Technical University of Denmark}{MSc in Digital Media Engineering - Studyline: Data Science}
+
+%------------------------------------------------
+
+\CVItem{2012 - 2016, Technical University of Denmark}{BEng in Information Technology}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{SEP 2015 - now, \textit{Consultant of Big Data(Hadoop) Solution}, Nordea Bank Denmark, Hadoop Data Platform}{
+Work Contents:
+\begin{itemize}
+	\item Make ETL process in Spark, manage storage in Hive/HBase and quick data retrieval such as Solr.
+	\item Build Data pipeline with tools from standard Hadoop Distribution.
+	\item Manage Kerberos authentication and AD controls over entire cluster
+	\item Analyze and Visualize preprocessed data with Python (Jupyter) 
+	\item Work in an agile development approach. Utilize Atlassian porducts and source code hosting sites bitbucket, github. 
+	\item Involved in many automatic tools in enterprise level such as Puppet, Docker, Bamboo, Remedy etc.
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{FEB 2015 - AUG 2015, \textit{Web Developer Intern}, Deskwolf A/S}{Half year internship at a startup majorly working with social media especially Facebook. Developing web application hosted in CMS system in PHP as well as Javascript. The purpose is to attract and assist other offline SMEs to boost their business via social media.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Language Skills}
+
+%------------------------------------------------
+
+\bluebullet \CVItem{Chinese (Mandarin)}{ Mother tongue} \\
+\bluebullet \CVItem{English}{ Business} \\
+\bluebullet \CVItem{Danish}{ Intermediate} \\
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Programming Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming} 
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Java (Maven) &  \bluebullet Python & \bluebullet Shell & \bluebullet SQL \\
+\bluebullet JS & \bluebullet Matlab \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Enterprise Solutions}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Cloudera Hadoop &  \bluebullet Anaconda & \bluebullet Agile & \bluebullet Kafka &  \bluebullet Bitbucket(Git) & \bluebullet Puppet 
+\end{tabular}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Awards}
+
+%------------------------------------------------
+
+\CVItem{2016, \textit{Postgraduate Degree Tuition Fee Waiver},Technical University of Denmark}{Tuition fee waiver awarded to the top student from outside of EU countries in a postgraduate degree.} 
+
+\CVItem{2012, \textit{Undergraduate Scholarship and Tuition Fee Waiver},Technical University of Denmark}{Scholarship and tuition fee waiver awarded to the top student from outside of EU countries during undergraduate study.} 
+
+
+%------------------------------------------------
+\Sep 
+\CVSection{GPAs}
+
+%------------------------------------------------
+
+\CVItem{Master : 11/12}
+\small{Link:https://cn.inside.dtu.dk/cnnet/Grades/Public.aspx?Id=UDZ5T58PM3} 
+
+\CVItem{Bachelor : 11.7/12}
+\small{Link:https://cn.inside.dtu.dk/cnnet/Grades/Public.aspx?Id=SVFJCSZ7VZ} 
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\CVSection{Projects}
+
+\textit{Github profile:https://github.com/ShawnHouCHN} \\
+
+%------------------------------------------------
+
+\CVItem{1. (Network Science) - Discover the hidden communities of enterprises.}{ Project Webpage: \\ \small{https://shawnhouchn.github.io/Social-Graph-Interaction/project/WolfOfMatematiktorvet/}}
+
+\CVItem{2. (Machine Learning) - NYC Car Accident Analysis}{ Project Webpage: \\ \small{https://shawnhouchn.github.io/SDAV2017-Project/Web/}}
+
+\CVItem{3. (Machine Learning) - Primer League Match Prediction Challenge}{ Project Notebooks: \\ \small{https://github.com/ShawnHouCHN/Introduction-to-Machine-Learning-and-Data-Mining-E17}}
+
+\CVItem{4. (Machine Learning) - Large-Scale Social Media Data Used as Sensor for Weather Change}{ Project Notebooks: \\ \small{https://github.com/ShawnHouCHN/Large-scale-social-media-data-as-a-sensor-for-public-opinion-on-climate-change}}
+
+%------------------------------------------------
+
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
